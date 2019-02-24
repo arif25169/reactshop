@@ -1,10 +1,10 @@
 {
   "name": "techynaf",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "homepage": "https://arif25169.github.io/techynaf",
   "dependencies": {
     "classnames": "^2.2.5",
+    "gh-pages": "^2.0.1",
     "ramda": "^0.23.0",
     "react": "16.4.1",
     "react-dom": "16.4.1",
@@ -15,6 +15,7 @@
     "react-toastify": "4.4.3",
     "redux": "^3.6.0",
     "redux-devtools-extension": "^2.13.0",
+    "redux-thunk": "2.2.0",
     "serve": "^10.0.0",
     "superagent": "^3.5.2"
   },
@@ -25,6 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build ",
     "eject": "react-scripts eject"
   }
 }
