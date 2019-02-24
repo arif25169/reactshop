@@ -2,9 +2,12 @@
   "name": "techynaf",
   "version": "1.0.0",
   "homepage": "https://arif25169.github.io/techynaf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arif25169/techynaf.git"
+  },
   "dependencies": {
     "classnames": "^2.2.5",
-    "gh-pages": "^2.0.1",
     "ramda": "^0.23.0",
     "react": "16.4.1",
     "react-dom": "16.4.1",
@@ -20,7 +23,8 @@
     "superagent": "^3.5.2"
   },
   "devDependencies": {
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "gh-pages": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
