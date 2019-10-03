@@ -1,10 +1,10 @@
 {
-  "name": "techynaf",
+  "name": "rifshop",
   "version": "1.0.0",
-  "homepage": "https://arif25169.github.io/techynaf",
+  "homepage": "/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arif25169/techynaf.git"
+    "url": "https://github.com/arif25169/rifshop.git"
   },
   "dependencies": {
     "classnames": "^2.2.5",
