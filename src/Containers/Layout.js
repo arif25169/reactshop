@@ -15,8 +15,11 @@ const Layout = ({ children }) => {
                         {children}
                     </div>
                 </div>
+                <footer>
+  <p>© Arif Hasan <a href="mailto: arif25169@gmail.com">
+  arif25169@gmail.com</a>.</p>
+</footer>
             </div>
-
         </div>
     )
 };
